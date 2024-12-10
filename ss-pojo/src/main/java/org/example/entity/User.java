@@ -76,6 +76,10 @@ public class User {
      * 工作日偏好（喜欢星期几工作，多个用“|”分隔）
      */
     private String workDayPreference;
+    /**
+     * 所属企业id
+     */
+    private Integer enterpriseId;
 
     /**
      * 工作时间偏好（以时间段为单位）

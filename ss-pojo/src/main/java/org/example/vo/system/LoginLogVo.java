@@ -1,6 +1,6 @@
 package org.example.vo.system;
 
-import com.dam.model.entity.BaseEntity;
+import org.example.entity.Base;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
 import lombok.Data;
@@ -8,7 +8,7 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-public class LoginLogVo extends BaseEntity {
+public class LoginLogVo extends Base {
     private static final long serialVersionUID = 1L;
     private String username;
     private String ipaddr;

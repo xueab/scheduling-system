@@ -26,6 +26,10 @@ public class LoginLog {
      * 用户名
      */
     private String username;
+    /**
+     * 所属门店ID
+     */
+    private Long storeId;
 
     /**
      * 登录IP地址

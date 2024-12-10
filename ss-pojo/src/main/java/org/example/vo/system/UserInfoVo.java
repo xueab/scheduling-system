@@ -1,6 +1,6 @@
 package org.example.vo.system;
 
-import com.dam.model.entity.BaseEntity;
+import org.example.entity.Base;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
 import lombok.Data;
@@ -10,7 +10,7 @@ import java.util.List;
 
 @Data
 @ToString
-public class UserInfoVo extends BaseEntity {
+public class UserInfoVo extends Base {
     /**
      * 姓名
      */

@@ -40,7 +40,7 @@ public class Message {
     /**
      * 是否已发布：0-未发布，1-已发布
      */
-    private Byte isPublish;
+    private Integer isPublish;
 
     /**
      * 通知标题

@@ -26,6 +26,10 @@ public class OperationLog {
      * 更新时间
      */
     private Date updateTime;
+    /**
+     * 所属门店ID
+     */
+    private Long storeId;
 
     /**
      * 删除标识：0-未删除，1-已删除

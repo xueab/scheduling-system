@@ -35,7 +35,7 @@ public class ProvinceCityRegion {
     /**
      * 地区类型：1-省，2-市，3-区
      */
-    private Byte type;
+    private Integer type;
 
     /**
      * 父级ID（省的parentId为0，市的parentId为省ID，区的parentId为市ID）

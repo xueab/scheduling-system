@@ -51,6 +51,10 @@ public class Store {
      * 详细地址
      */
     private String address;
+    /**
+     * 所属企业id
+     */
+    private Integer enterpriseId;
 
     /**
      * 门店工作场所面积
